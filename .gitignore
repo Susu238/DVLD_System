@@ -1,0 +1,12 @@
+﻿# Build output
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.log
