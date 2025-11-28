@@ -23,6 +23,13 @@ namespace DVLD_Business
         public string ThirdName { set; get; }
 
         public string LastName { set; get; }
+        public string FullName
+        {
+            get
+            {
+                return FirstName + " " + SecondName + " " + LastName;
+            }
+        }
         public string Email { set; get; }
         public string Phone { set; get; }
         public string Address { set; get; }
